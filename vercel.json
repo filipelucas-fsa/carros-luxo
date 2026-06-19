@@ -1,0 +1,12 @@
+{
+  "buildCommand": "npx vite build",
+  "outputDirectory": ".vercel/output",
+  "framework": "vite",
+  "installCommand": "npm install",
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/"
+    }
+  ]
+}
